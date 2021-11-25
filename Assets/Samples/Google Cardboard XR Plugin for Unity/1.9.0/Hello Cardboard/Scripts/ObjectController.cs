@@ -59,9 +59,9 @@ public class ObjectController : MonoBehaviour
         _volumeFormulaTextMesh = GameObject.FindGameObjectWithTag("VolumeFormula").GetComponent<TMPro.TextMeshProUGUI>();
 
         _figuresInformation.Add("Sphere", new Figure() { Name = "Esfera", Edges = "Sin aristas", Faces = "Caras: 1", Vertices = "Sin vertices", VolumeFormula = "V = ¾πr^3" });
-        _figuresInformation.Add("Pyramid", new Figure() { Name = "Pirámide", Edges = "Aristas: 8", Faces = "Caras: 5", Vertices = "Vertices: 5", VolumeFormula = "V = ⅓l^2 * h" });
-        _figuresInformation.Add("Icosaedron", new Figure() { Name = "Icosaedro", Edges = "Aristas: 30", Faces = "Caras: 20", Vertices = "Vertices: 12", VolumeFormula = "V = (5/12)*(3+√5)*l^3" });
-        _figuresInformation.Add("Cube", new Figure() { Name = "Cubo", Edges = "Aristas: 12", Faces = "Caras: 6", Vertices = "Vertices: 8", VolumeFormula = "l^3" });
+        _figuresInformation.Add("Pyramid", new Figure() { Name = "Pirámide", Edges = "Aristas: 8", Faces = "Caras: 5", Vertices = "Vertices: 5", VolumeFormula = "V = ⅓L^2 * h" });
+        _figuresInformation.Add("Icosaedron", new Figure() { Name = "Icosaedro", Edges = "Aristas: 30", Faces = "Caras: 20", Vertices = "Vertices: 12", VolumeFormula = "V = (5/12)*(3+√5)*L^3" });
+        _figuresInformation.Add("Cube", new Figure() { Name = "Cubo", Edges = "Aristas: 12", Faces = "Caras: 6", Vertices = "Vertices: 8", VolumeFormula = "V = L^3" });
         _figuresInformation.Add("Cone", new Figure() { Name = "Cono", Edges = "Aristas: 1", Faces = "Caras: 2", Vertices = "Vertices: 1", VolumeFormula = "V = (π * r^2 * h) / 3" });
         _figuresInformation.Add("Cylinder", new Figure() { Name = "Cilindro", Edges = "Aristas: 3", Faces = "Caras: 3", Vertices = "Vertices: 2", VolumeFormula = "V = π * r^2 * h" });
     }
